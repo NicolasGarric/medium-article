@@ -1,0 +1,39 @@
+h3 {
+  color: rgb(64, 64, 64);
+}
+
+body {
+margin: 0;
+}
+
+.background-image-div {
+background-image: url("https://loremflickr.com/320/240");
+background-size: cover;
+padding: 100px 0;
+padding-left: 150px;
+}
+
+.padding-left{
+  padding-left: 50px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
